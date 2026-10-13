@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="50%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="tealGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="192" height="192" rx="42" fill="url(#bgGrad192)"/>
+  <rect width="188" height="188" x="2" y="2" rx="40" fill="none" stroke="#14b8a6" stroke-width="2.5" stroke-opacity="0.3"/>
+
+  <!-- Medical Cross watermark -->
+  <rect x="85" y="42" width="22" height="108" rx="6" fill="#14b8a6" fill-opacity="0.15"/>
+  <rect x="42" y="85" width="108" height="22" rx="6" fill="#14b8a6" fill-opacity="0.15"/>
+
+  <!-- Glowing Pulse Wave path -->
+  <path d="M 30 96 L 60 96 L 73 72 L 88 128 L 103 48 L 118 140 L 131 96 L 162 96"
+        fill="none"
+        stroke="url(#tealGrad192)"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Pulse peak -->
+  <circle cx="103" cy="48" r="6" fill="#5eead4"/>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "appId": "com.rapicure.app",
+  "appName": "RapiCure AI",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "",
+      "keystorePassword": "",
+      "keystoreAlias": "",
+      "keystoreAliasPassword": "",
+      "releaseType": "AAB"
+    }
+  }
+}

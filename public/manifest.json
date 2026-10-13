@@ -1,0 +1,42 @@
+{
+  "name": "RapiCure AI - Pre-OPD Medical Triage & Voice Scribe",
+  "short_name": "RapiCure",
+  "description": "High-volume hospital pre-OPD clinical triage assistant synthesizing bilingual voice complaints, nursing vitals, and lab reports into structured SOAP briefings with risk stratification.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#020617",
+  "theme_color": "#0d9488",
+  "scope": "/",
+  "categories": ["medical", "health", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Patient Intake",
+      "short_name": "Intake",
+      "description": "Start new patient pre-OPD intake",
+      "url": "/?tab=intake",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Doctor Cockpit",
+      "short_name": "Doctor",
+      "description": "View SOAP notes and triage priority",
+      "url": "/?tab=cockpit",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}

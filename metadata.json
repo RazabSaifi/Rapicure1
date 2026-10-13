@@ -1,0 +1,10 @@
+{
+  "name": "RapiCure - Pre-OPD Medical Triage & Voice Scribe",
+  "description": "High-volume hospital pre-OPD clinical triage assistant synthesizing bilingual voice complaints, nursing vitals, and lab reports into structured SOAP briefings with risk stratification.",
+  "requestFramePermissions": [
+    "MICROPHONE"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
